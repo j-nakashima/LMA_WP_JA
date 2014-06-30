@@ -1,4 +1,24 @@
-# Learning Measurement for Analytics Whitepaper
+# Learning Measurement for Analytics Whitepaper <small>（分析のための学習測定に関するホワイトペーパー）</small>
+
+
+> この文書は、[IMS Global Learning Consortium](http://www.imsglobal.org/) による [「Learning Measurement for Analytics Whitepaper」](http://www.imsglobal.org/IMSLearningAnalyticsWP.pdf) の有志による日本語訳です。
+>
+> 本書は、IMS が策定を進めるオンライン学習測定フレームワーク Caliper の概要を紹介したものです。
+>
+> - 本書の現著作権は IMS Global Learning Consortium に帰属します。  
+>    ©2013 IMS Global Learning Consortium, Inc. All Rights Reserved
+> - この翻訳は参考であり、公式のものではありません。
+> - 翻訳に関する誤りの報告や改善の提案には、Github の Issue または Pull Request をご利用ください。
+> 
+> <dl>
+> <dt>翻訳</dt>
+> <dd>日本電子出版協会（JEPA）／高瀬拓史（イースト株式会社）</dd>
+> <dt>公開日</dt>
+> <dd>2014-06-30</dd>
+> <dt>最終更新日</dt>
+> <dd>2014-06-30</dd>
+> </dl>
+
 
 ## 機会
 
