@@ -13,9 +13,9 @@
 > <dl>
 > <dt>翻訳</dt>
 > <dd>日本電子出版協会（JEPA）／高瀬拓史（イースト株式会社）</dd>
-> <dt>公開日</dt>
+> <dt>公開</dt>
 > <dd>2014-06-30</dd>
-> <dt>最終更新日</dt>
+> <dt>更新</dt>
 > <dd>2014-06-30</dd>
 > </dl>
 
@@ -145,9 +145,7 @@ Learning Event と Metric Profile は完全にオープンなメカニズムと�
 
 IMS Learning Tools Interoperability™(LTI) の仕様は、現在の教育テクノロジーの分野で、相互運用性のメカニズムとして成功を収めており、最も広く使われているもののひとつだ。それは学習システムとツールの統合された学習体験を講師、コース設計者および学習者に提供する。LTIの現在のバージョンは、シームレスな統合運用を可能にしているが、そこで生まれる学習データは、LTIに参加したそれぞれのツールの中で孤立したままだ。そこで IMS では Metric Profile と Sensor API/Learning Event に加えて、次のことができる拡張を定義しようとしている。
 
-- LTI tools can specify one or more metric profiles in their LTI descriptor;
 - LTIツールはそのLTI記述しの中でひとつ以上の Metric Profile を指定できるようにする。
-- LTI consumers as part of the LTI handshake can specify IMS Sensor API end-point to which the tools can push data conforming to the metric profiles during tool usage.
 - LTI ハンドシェイクを構成するLTIの利用者が、IMS Sensor API のエンドポイントを指定することで、ツールが使用時に Metric Profile に適合したデータを送信できるようにする。
 
 図5では、LTIフレームワークに対してこの拡張が意図する範囲を示している（赤くハイライトされた箇所）。
