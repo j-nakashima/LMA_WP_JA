@@ -1,4 +1,24 @@
-# Learning Measurement for Analytics Whitepaper
+# Learning Measurement for Analytics Whitepaper <small>（分析のための学習測定に関するホワイトペーパー）</small>
+
+
+> この文書は、[IMS Global Learning Consortium](http://www.imsglobal.org/) による [「Learning Measurement for Analytics Whitepaper」](http://www.imsglobal.org/IMSLearningAnalyticsWP.pdf) の有志による日本語訳です。
+>
+> 本書は、IMS が策定を進めるオンライン学習測定フレームワーク Caliper の概要を紹介したものです。
+>
+> - 本書の現著作権は IMS Global Learning Consortium に帰属します。  
+>    ©2013 IMS Global Learning Consortium, Inc. All Rights Reserved
+> - この翻訳は参考であり、公式のものではありません。
+> - 翻訳に関する誤りの報告や改善の提案には、Github の Issue または Pull Request をご利用ください。
+> 
+> <dl>
+> <dt>翻訳</dt>
+> <dd>日本電子出版協会（JEPA）／高瀬拓史（イースト株式会社）</dd>
+> <dt>公開</dt>
+> <dd>2014-06-30</dd>
+> <dt>更新</dt>
+> <dd>2014-06-30</dd>
+> </dl>
+
 
 ## 機会
 
@@ -61,7 +81,7 @@ IMS Caliper は次のコンセプトで設計されている。
 
 - **IMS Learning Metric Profiles** は（行動とそれに関連したコンテキストの）評価基準に沿った学習活動中心のフォーカスを提供する。この評価基準は、消費者と生産者がカリキュラムに基づいて活動の利用や編成を行う学習ツールの配信活動や学習プラットフォームにわたって取得される。また独自の拡張や機能をプロファイルに追加できるようにもする。
 - **IMS Learning Sensor API および Learning Events** は標準化された計測機器と評価基準の取得を行い、ツールやその配信プラットフォームや、関連した評価基準を収集する解析サービス・ソリューションを整理する。
-- **IMS LTI™/LIS/QTI™ leverage and extensionsen** はツールの相互運用性と、講座、学習者、成果などの重要な関連コンテキストを含む基本的な学習情報モデルによって、細かく標準化された学習測定を強化統合する。以後のセクションではこれらのフレームワークの要素について、より詳細に述べる。
+- **IMS LTI™/LIS/QTI™ leverage and extensions** はツールの相互運用性と、講座、学習者、成果などの重要な関連コンテキストを含む基本的な学習情報モデルによって、細かく標準化された学習測定を強化統合する。以後のセクションではこれらのフレームワークの要素について、より詳細に述べる。
 
 ### IMS Learning Activity Metric Profiles
 
@@ -125,9 +145,7 @@ Learning Event と Metric Profile は完全にオープンなメカニズムと�
 
 IMS Learning Tools Interoperability™(LTI) の仕様は、現在の教育テクノロジーの分野で、相互運用性のメカニズムとして成功を収めており、最も広く使われているもののひとつだ。それは学習システムとツールの統合された学習体験を講師、コース設計者および学習者に提供する。LTIの現在のバージョンは、シームレスな統合運用を可能にしているが、そこで生まれる学習データは、LTIに参加したそれぞれのツールの中で孤立したままだ。そこで IMS では Metric Profile と Sensor API/Learning Event に加えて、次のことができる拡張を定義しようとしている。
 
-- LTI tools can specify one or more metric profiles in their LTI descriptor;
 - LTIツールはそのLTI記述しの中でひとつ以上の Metric Profile を指定できるようにする。
-- LTI consumers as part of the LTI handshake can specify IMS Sensor API end-point to which the tools can push data conforming to the metric profiles during tool usage.
 - LTI ハンドシェイクを構成するLTIの利用者が、IMS Sensor API のエンドポイントを指定することで、ツールが使用時に Metric Profile に適合したデータを送信できるようにする。
 
 図5では、LTIフレームワークに対してこの拡張が意図する範囲を示している（赤くハイライトされた箇所）。
