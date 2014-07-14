@@ -127,7 +127,7 @@ Learning **Activity** は LearningContext の教育と学習を促進するた�
 
 Learning Event と Metric Profile は完全にオープンなメカニズムと、学習グラフにおける学習の測定と分析のための厳格なスキーマとのバランスを取ることを意図している。Metric Profile は非常に軽量なスキーマを利用することを意図している。その一方で、Ed Tech コミュニティのニーズをサポートするために、極めて反復的な方法でプロファイルを拡大し、特定のアプリケーション／システムに固有のデータを整備できるようにもする。
 
-またこのメカニズムは、既存の「オープンな」トリプルをベースにしたAPIをSensor APIにマッピングして整備することもできる。そしてこうした既存の「オープンな」APIは、IMS Activity Metric ProfilesにもとづいてLearning Eventを利用する。その一例として Experience/TinCan API が挙げられる。Caliper の Sensor API と Experience API とは、トリプルを介したデータ通信において共通の基盤を共有している。しかし が挙げられる。しかし、Caliper フレームワークは次に示すとおり、そのエコシステムに、より網羅的である。
+またこのメカニズムは、既存の「オープンな」トリプルをベースにしたAPIをSensor APIにマッピングして整備することもできる。そしてこうした既存の「オープンな」APIは、IMS Activity Metric ProfilesにもとづいてLearning Eventを利用する。その一例として Experience/TinCan API が挙げられる。Caliper の Sensor API と Experience API とは、トリプルを介したデータ通信において共通の基盤を共有している。しかし、Caliper フレームワークは次に示すとおり、そのエコシステムに、より網羅的である。
 
 - Learning Metric Profile を介して学習環境に固有のビューを持つ
 - フレームワーク／仕様の重要なコンポーネントとして LTI™ を持つ
