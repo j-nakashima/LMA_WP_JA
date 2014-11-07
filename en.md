@@ -8,7 +8,7 @@ Equipped with a standards based common foundation for learning measurement, the 
 
 Given this timely and high value opportunity scenario, some of the key challenges identified that need to be prioritized and factored into a strategy and direction to realize a learning measurement standards-based framework are:
 
-- In the current state of online curriculum delivery, there are a non-standard and/or completely non-existent set of metrics for measuring curriculum learning activity content and feature-function edu-apps, sourced from an increasingly wider spectrum of solutions and providers.  This diverse solution set is highly federated, fragmented and ‘siloed’within the provider’srespective delivery platform/app.  These collections of solutions frequentlyco-exist in any given online lesson or curriculum. Some progress is being made in establishing some learning design/objective performance oriented standardized metrics (i.e. [Bloom’s Taxonomy], [Common Core], [Predictive Analytics Reporting (PAR) framework][PAR], [Council for the Advancement of Standards in Higher Education -Learning and Developmental Outcomes][CAS standards]) but have yet to be more universally applied and/or leveraged within a broader context of measurements;
+- In the current state of online curriculum delivery, there are a non-standard and/or completely non-existent set of metrics for measuring curriculum learning activity content and feature-function edu-apps, sourced from an increasingly wider spectrum of solutions and providers.  This diverse solution set is highly federated, fragmented and ‘siloed’ within the provider’srespective delivery platform/app.  These collections of solutions frequently co-exist in any given online lesson or curriculum. Some progress is being made in establishing some learning design/objective performance oriented standardized metrics (i.e. [Bloom’s Taxonomy], [Common Core], [Predictive Analytics Reporting (PAR) framework][PAR], [Council for the Advancement of Standards in Higher Education -Learning and Developmental Outcomes][CAS standards]) but have yet to be more universally applied and/or leveraged within a broader context of measurements;
 
 [Bloom’s Taxonomy]: http://en.wikipedia.org/wiki/Bloom's_Taxonomy
 
@@ -27,7 +27,7 @@ While embracing this opportunity and its challenges, it is important to recogniz
 
 In addition, it is important to recognize that the “edu graph” (depicted in Figure1) of education associated measurement and data  (akin to the “social graph” of social data that has emerged), can be expanded in both breadth and depth across multiple areas of specialized data contexts associated within the ecosystem and the educational workflow contextualized sources of data such as administrative/operational, curricular activity and content, co-curricular, learner/educator profile, career,etc.
 
-**Figure 1: The comprehensive “edu graph” data mode**
+**Figure 1: The comprehensive “edu graph” data model**
 
 *With that, it is important to be focused,initially,on a smaller subset of the edu-graph so as to achieve the impact and value of the resulting enhanced learning measurement, while establishing a standardized software services framework that can be readily applied and extended to incrementally cover the other facets of the edu-graph over time.*
 
@@ -41,7 +41,7 @@ The strategy described in this whitepaper is intended to provide a high-level re
 
 IMS and standards can play the much needed instrumental role in first establishing a strong foundation to consistently represent, capture, and marshal measurement related data, which will then set the stage of a whole ecosystem of higher-order analytics solutions that can be greatly enabled and enhanced.
 
-In order to further this goal, IMS will work with its member institutions and suppliers to define aLearning Measurement Framework -**Caliper**.  This framework is depicted in Figure 2.
+In order to further this goal, IMS will work with its member institutions and suppliers to define a Learning Measurement Framework -**Caliper**.  This framework is depicted in Figure 2.
 
 *Note that the scope of Caliper is denoted in Figure 2 by the left-hand, shaded green box.*
 
@@ -49,7 +49,7 @@ In order to further this goal, IMS will work with its member institutions and su
 
 IMS Caliper is built around the following concepts:
 
-- **IMS Learning Metric Profiles** that provide a Learning Activity centric focus to standardize on metrics (actions and related context) captured across consumer and producer learning tool’s delivery　activities and delivery platforms that consume and orchestrate activity based curriculum, while providing for custom extensions and future additions to the profiles;
+- **IMS Learning Metric Profiles** that provide a Learning Activity centric focus to standardize on metrics (actions and related context) captured across consumer and producer learning tool’s delivery activities and delivery platforms that consume and orchestrate activity based curriculum, while providing for custom extensions and future additions to the profiles;
 - **IMS Learning Sensor API** and Learning Events drive standardized instrumentation and metric capture and marshal between tools and their delivery platforms and/or associated analytics service solution aggregating metrics;
 - **IMS LTI™/LIS/QTI™ leverage and extensions** enhance and integrate granular, standardized learning measurement with tools interoperability and the underlying learning information models, inclusive of course, learner, outcomes and other critical associated context.The following sections describe the elements of the framework in greater detail.
 
@@ -57,9 +57,9 @@ IMS Caliper is built around the following concepts:
 
 The learning curriculum is typically composed and delivered as a collection,or sequence,of one or more Learning Activities.  Most Learning Activities can be grouped into one (or more, in the case of composite activities) genres -e.g.Reading, Assessment, Media, Collaboration,etc.  This helps to organize and optimize measurements for each specific genre of Learning Activity to begin to baseline consistent metrics.
 
-IMS Learning Metric Profiles are intended to define a standardized, structured collection of **Learning Activity Metrics** that represent granular **measurements** specific to **actions** within each genre of **activity** including all relevant **context** for any given action on an activity.  In addition, there are pan-genre **Foundational Metrics** such as **engagement**, performance, etc., that support common measurement of more generally applicable metrics across all activities.  Any given Learning Activity can have (one or more) Metric Profiles associated with it to collect and exchange whatever measurements whichneed to captured and managed.
+IMS Learning Metric Profiles are intended to define a standardized, structured collection of **Learning Activity Metrics** that represent granular **measurements** specific to **actions** within each genre of **activity** including all relevant **context** for any given action on an activity.  In addition, there are pan-genre **Foundational Metrics** such as **engagement**, **performance**, etc., that support common measurement of more generally applicable metrics across all activities.  Any given Learning Activity can have (one or more) Metric Profiles associated with it to collect and exchange whatever measurements whichneed to captured and managed.
 
-IMS has work ongoing to define an initial set of Learning Metric Profiles for the most common Learning Activity types, that will be a used as a component of,or extensions to, current and/or in-process/future planned IMS standards, like LTI™, LISand QTI™, etc.  These IMS standards specify the contextual elements (information model) against which metrics will be captured.  Together the Activity metrics and information models will define metric profiles, i.e. provide a base “schema”, that will allow for a standards-based measurement and exchange of learning data between systems.
+IMS has work ongoing to define an initial set of Learning Metric Profiles for the most common Learning Activity types, that will be a used as a component of,or extensions to, current and/or in-process/future planned IMS standards, like LTI™, LIS and QTI™, etc.  These IMS standards specify the contextual elements (information model) against which metrics will be captured.  Together the Activity metrics and information models will define metric profiles, i.e. provide a base “schema”, that will allow for a standards-based measurement and exchange of learning data between systems.
 
 Figure 3 depicts a sample (non-definitive) of the types of Metric Profiles that IMS intends to develop in collaboration with its member institutions and suppliers.
 
@@ -96,7 +96,7 @@ The Learning Events and Metric Profiles are intended to strike a balance between
 This mechanism also allows for existing “open” triple based API’s to be mapped and marshaled over the Sensor API and for any such existing “open” API’s to consume Learning Events based on IMS Activity Metric Profiles.  One such example is the Experience/TinCan API.  Caliper’s Sensor API and the Experience API share a common foundation with regard to communicating data via triples.  The IMS Caliper framework,however,is more encompassing of the ecosystem in that it:
 
 - Takes a learning environment specific view via Learning Metric Profiles;
-- Includes LTI™-as an important component of the framework/specification;
+- Includes LTI™ -as an important component of the framework/specification;
 - Incorporates existing specifications/standards for data interoperability like LIS, QTI™, etc.
 - Will strive to incorporate ongoing efforts by various organizations to define metrics and/or desired learning and developmental outcomes for various aspects of the edu-graph.
 
@@ -135,7 +135,7 @@ This section outlines a scenario applying all of the elements of IMS Caliper. It
 
 The following is the sequence of events for this scenario:
 
-- The Learning PlatformAdministrator configures two LTI Apps.  The LTI configuration URL/XML indicates to the Learning Platform that these Apps support a Reading and Video Metric Profile respectively. *Note that with LTI v2 (currently in public draft), the LTI App/Tool configuration can be automated via a REST API implemented by the interacting consumer/tool.  As a result, LTI configuration is greatly simplified.  In addition, the Sensor Endpoint URL configuration described below could also be included in the Tool Proxy Registration flow defined as part of LTI v2;*
+- The Learning Platform Administrator configures two LTI Apps.  The LTI configuration URL/XML indicates to the Learning Platform that these Apps support a Reading and Video Metric Profile respectively. *Note that with LTI v2 (currently in public draft), the LTI App/Tool configuration can be automated via a REST API implemented by the interacting consumer/tool.  As a result, LTI configuration is greatly simplified.  In addition, the Sensor Endpoint URL configuration described below could also be included in the Tool Proxy Registration flow defined as part of LTI v2;*
 - The Learning Platform Administrator configures the Sensor API Endpoint URL in the LTI settings.  This is a URL provided by the Analytics Service.  The URL could possibly have an embedded API Key authorizing access;
 - An Instructor adds a Reading and Video Activity using the LTI Apps
     * In order to add the two activities, the Instructor initiates an LTI launch.  During the launch, since the Apps support IMS Metric Profiles, the LMS adds on the Sensor API Endpoint URL as one of the launch parameters
@@ -146,7 +146,7 @@ The following is the sequence of events for this scenario:
     * Adding a Bookmark
     * Viewing the video
     * Taking a note on the Video at a particular time during playback;
-- The LTI Apps record the student’sactions.  Since the Learning Platform provided a Sensor API endpoint during launch, each App starts posting Learning Events to the Sensor API endpoint;
+- The LTI Apps record the student’s actions.  Since the Learning Platform provided a Sensor API endpoint during launch, each App starts posting Learning Events to the Sensor API endpoint;
 - The Analytics Service
     * Is a proxy for a typical consuming service for metrics captured and marshaled via the IMS Caliper framework. Note that the Analytics Service and any associated services such as the access and store interfaces and stack, are outside the scope of the IMS Caliper framework from a standards based framework perspective
     * Records the Learning Events to its store
@@ -157,9 +157,9 @@ The following is the sequence of events for this scenario:
 
 ## Conclusion and Recommendations
 
-The IMS Caliper Learning Measurement Framework represents a valuable, standards oriented, high impact solution to a very significant problem amidst the online learning delivery ecosystem. Currently, this ecosystemhas an insufficient, inconsistent, and fragmented underlying measurement and metrics capability across a fast emerging of federated content/learning activity elements sourced from a wide array of providers.  By providing the necessary alignment and structure to what is and should be measured, along with a framework to support the capture and marshaling, this IMS Caliper focused scope represents an achievableand valuable starting position.
+The IMS Caliper Learning Measurement Framework represents a valuable, standards oriented, high impact solution to a very significant problem amidst the online learning delivery ecosystem. Currently, this ecosystem has an insufficient, inconsistent, and fragmented underlying measurement and metrics capability across a fast emerging of federated content/learning activity elements sourced from a wide array of providers.  By providing the necessary alignment and structure to what is and should be measured, along with a framework to support the capture and marshaling, this IMS Caliper focused scope represents an achievable and valuable starting position.
 
-Clearly, the Caliper framework is flexible and extendable which will greatly facilitate the recommended and likely iterative build-out, refinement, and enhancement of its capabilities.In addition, the framework could add other adjacent complementary analytics frameworks, as time and the solution-space evolves. This proposed solution simply establishes a direction and scope to drive value.
+Clearly, the Caliper framework is flexible and extendable which will  greatly facilitate the recommended and likely iterative build-out, refinement, and enhancement of its capabilities.In addition, the framework could add other adjacent complementary analytics frameworks, as time and the solution-space evolves. This proposed solution simply establishes a direction and scope to drive value.
 
 An additional detailed definition, specification and supporting service framework implementation will be forthcoming as the IMS workgroup roadmaps and tasks are prioritized.  This work will drive getting the integral and co-dependent work done in respective IMS workgroups (i.e. Learning Analytics, LTI, LIS, QTI,etc.) to both support and realize the implementation of the Caliper interdependent elements, and more importantly, synchronize around a more unified, consistent and standardized approach to learning measurement.
 
@@ -200,7 +200,7 @@ specific (i.e. reading, quizzing, media, etc.). Profiles are utilized to capture
 marshal metrics via the Caliper framework in a standardized consistent form. </td>
 </tr>
 <tr>
-<td>Question and Test Interoperability™ (QTI™)</td><td>Refer to the <a href="">IMS Question & Test Interoperability specification</a></td>
+<td>Question and Test Interoperability™ (QTI™)</td><td>Refer to the <a href="http://www.imsglobal.org/question/">IMS Question & Test Interoperability specification</a></td>
 </tr>
 <tr>
 <td>Sensor API</td><td>API that includes the Learning Event, inclusive of binding to the Metric Profiles,
